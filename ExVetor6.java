@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio06 {
+public class ExVetor6 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -8,7 +8,7 @@ public class exercicio06 {
 		int A[] = new int[4];
 		int checkSame=0;
 		
-		System.out.println("[+] Verificando a existência de valores repetidos ...");
+		System.out.println("[+] Verificando a existÃªncia de valores repetidos ...");
 		System.out.println("[+] Leitura do vetor V ");
 		
 		//leitura do vetorA
