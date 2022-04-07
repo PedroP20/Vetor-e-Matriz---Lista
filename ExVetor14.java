@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class exercicio14 {
+public class ExVetor14 {
 
 	public static void main(String[] args) {
 	    Scanner input = new Scanner (System.in);
@@ -26,9 +26,9 @@ public class exercicio14 {
 			Conc[checked] = B[i];
 			checked++;
 	    }
-	    System.out.println("\nOs valores integrados s„o:");
+	    System.out.println("\nOs valores integrados s√£o:");
 	    System.out.println(Arrays.toString(Conc));
-        // remover repetidos
+        
         int[ ] unicos = new int[ Conc.length ];
         int qtd = 0;
         for(i = 0 ; i < Conc.length ; i++ ) {
@@ -44,7 +44,7 @@ public class exercicio14 {
             }
         }
         unicos = Arrays.copyOf( unicos , qtd );
-	    System.out.println("\nOs valores integrados sem duplicidade s„o:");
+	    System.out.println("\nOs valores integrados sem duplicidade s√£o:");
         for(i = 0 ; i < unicos.length;i++) {
             System.out.printf("%4d", unicos[i]);
         }
