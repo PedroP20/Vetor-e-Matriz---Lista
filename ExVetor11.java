@@ -1,18 +1,18 @@
 
 import java.util.Scanner;
 
-public class ExOnze {
+public class ExVetor11 {
 
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
-        int i; // i serão os índices do vetor
-        int v[] = new int[100]; // declaração de um vetor em Java
+        int i;
+        int v[] = new int[100]; 
         
         System.out.println("Vetor v, de 6 elementos...");
         System.out.println("Leitura do vetor V: ");
         for(i=0;i<v.length;i++) {
             System.out.println("Digite v["+i+"]:");
-            v[i] = ent.nextInt(); // Leitura via nextInt
+            v[i] = ent.nextInt(); 
 
         }
         System.out.println("\n\nVetor original: ");
