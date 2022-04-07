@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio08 {
+public class ExVetor8 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -16,7 +16,7 @@ public class exercicio08 {
 			soma=soma+A[i];
 		}
 		media=soma/A.length;
-		System.out.printf("\n[+] A nota média é: %4d",media);
+		System.out.printf("\n[+] A nota mÃ©dia Ã©: %4d",media);
 	}
 
 }
