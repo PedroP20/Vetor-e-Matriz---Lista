@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio03 {
+public class ExVetor3 {
 
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
