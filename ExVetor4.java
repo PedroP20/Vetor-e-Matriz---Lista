@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class exercicio04 {
+public class ExVetor4 {
 
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
-		int i; // i ser„o os Ìndices do vetor
-		int A[] = new int[6]; // declaraÁ„o de um vetor em Java
+		int i; // i ser√£o os √≠ndices do vetor
+		int A[] = new int[6]; // declara√ß√£o de um vetor em Java
 		int B[] = new int[6];
 		
 		
@@ -18,7 +18,7 @@ public class exercicio04 {
 		
 		for(i=0;i<A.length;i++) {
 			B[i] = A[0] + A[1] + A[5];
-			System.out.printf("A soma dos vetores È: %d \n", B[i] );
+			System.out.printf("A soma dos vetores √©: %d \n", B[i] );
 			break;
 		}
 		System.out.println("\nModificando o Vetor A[4]:");
