@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio15 {
+public class ExVetor15 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -25,13 +25,13 @@ public class exercicio15 {
 				count++;
 			}
 		}
-		System.out.printf("\n[+] Aplicando a regra de remoção dos valores 0:\n");
+		System.out.printf("\n[+] Aplicando a regra de remoÃ§Ã£o dos valores 0:\n");
 		int[] finalArr = new int[A.length - count];
 		for (i = 0; i < A.length; i++) {
 			if (A[i] != 0) {
 				finalArr[cont] = A[i];
 				cont++;
-				System.out.printf("[+] Aplicando lógica: ");
+				System.out.printf("[+] Aplicando lÃ³gica: ");
 				System.out.println(A[i]);
 			}
 
