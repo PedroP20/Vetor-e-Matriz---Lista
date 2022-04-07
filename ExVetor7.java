@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio07 {
+public class ExVetor7 {
 
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class exercicio07 {
 			A[i] = ent.nextInt();
 		}
 
-		System.out.println("[+] Mostrando o leque de opções: ");
+		System.out.println("[+] Mostrando o leque de opÃ§Ãµes: ");
 
 		int opcao = -1;
 		while (true) {
@@ -35,7 +35,7 @@ public class exercicio07 {
 						System.out.printf("%4d", A[i]);
 					}
 				} else if (opcao < 0 || opcao > 2) {
-					System.out.println("\nComando não identificado, Tente Novamente.");
+					System.out.println("\nComando nÃ£o identificado, Tente Novamente.");
 				}
 				System.out.println("\n");
 			}
