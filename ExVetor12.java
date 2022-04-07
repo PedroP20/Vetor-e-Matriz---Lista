@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio12 {
+public class ExVetor12 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -22,13 +22,10 @@ public class exercicio12 {
 				}
 			}
 			if (cont<2) {
-				System.out.printf("[+] O valor inteiro ["+A[i]+"] é um numero Primo localizado no index["+i+"]\n");
+				System.out.printf("[+] O valor inteiro ["+A[i]+"] Ã© um numero Primo localizado no index["+i+"]\n");
 				cont=0;
 			}
-//			else {
-//				System.out.printf("\no Numero["+A[i]+"] NÃO é primo e esta na posicao ["+i+"]");
-//				cont=0;
-//			}
+		}
 		}		
 	}
 
