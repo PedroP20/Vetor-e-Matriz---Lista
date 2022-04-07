@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio13 {
+public class ExVetor13 {
 
 	public static void main(String[] args) {
 	    Scanner input = new Scanner (System.in);
@@ -21,12 +21,12 @@ public class exercicio13 {
 	      B[i] = input.nextInt();
 	    }
 	   
-		System.out.println("\n[...] Verificando e imprimindo a intersecção dos valores entre o vetor A e B");
+		System.out.println("\n[...] Verificando e imprimindo a intersecÃ§Ã£o dos valores entre o vetor A e B");
 	    for( i=0; i < A.length; i++) {
 	      for(int j=0; j < B.length; j++) {
 	        if (A[i] == B[j]){
 	          C[j] = A[i]; 
-	          System.out.println("Faz intersecção: "+C[j]);
+	          System.out.println("Faz intersecÃ§Ã£o: "+C[j]);
 	        } 
 	      }
 	    }
